@@ -5,3 +5,30 @@
 >.pem is usually used in for AWS services, but if to be used for PuTTY or WinSCP .ppk file can be used.
 >.ppk files are used to enable communication securely with another party having the corresponding public key.
 >Systems platform compatibility: Linux (.pem), Mac (.pem), Windows PowerShell (.pem), Window PuTTY/Cygwin (.ppk)
+
+####----pem format----#####
+.pem
+-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAxZls7NgRS5rtDH+mCgEeqSO12BiPAY2dhZZbTkPEoDUVqG46
+PHGIBBERISHFKS3xE4eMMY+uWPriviY0W12EFqYBUJDq6GmGSQPMSI8Kep7OgVGK
+d2t3/Lq+I8ZqlFwAgPwS7n18mlgTV/YyA0HCCIa+kZGKqbsuylfsODUAJGQqOtUM
+FKX4+O45RrJwcQGI2M+pbD4+Ow28iEsNP3flQKvamNuezm2VallhGiO/E39UITrB
+27FWM1pLQo5etyE378h5q8BKMGKt1ZPxPhjiNjBefGZ1Dscw7CA5
+-----END RSA PRIVATE KEY-----
+
+#####----ppk format----####
+.ppk
+PuTTY-User-Key-File-2: ssh-rsa
+Encryption: none
+Comment: imported-openssh-key
+Public-Lines: 3
+AAAAB3NzaC1yc2EAAAADAQABAAABAQDFmWzs2BFLmu0Mf6YKAR6pI7XYGI8BjZ2F
+llGIBBERISHobjo8c6DjH6iBW0UpLfETh4wxj65Y+uK+JjRbXYQWpgFQkOroaYZJ
+1DxehJUvZpuZqLSUGvZrUzbYmx25oVE5+x6UBSA0NUiTpq6jWFPH
+Private-Lines: 3
+AAABAFLQsak2CVGhldYWLbWlsH78+3qdGFpzSuCxGoVbu63VccVMpVWutHBcVVgZ
+s4GIBBERISHcVhru01cUVf8w22pOmuB0TC+qAmDZmaWTZbXslun2Dc1tGjWu4n/F
+S0KOXrchN+/IeavASjBirdWT8T4Y4jYwXnxmdQ7HMOwgOQ==
+Private-MAC: 5fGIBBERISHda60d2e8b049e655e4a8a78bb18dc
+
+####--------####

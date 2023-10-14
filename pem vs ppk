@@ -1,0 +1,7 @@
+.pem vs .ppk?
+>PEM(privacy Enhanced Mail) is downloaded from aws when you created your key-par for ec2 access.
+>PPK(putty private key) is a windows ssh client, it does not support .pem format. 
+>.pem files can be converted to .ppk using PuTTYgen.
+>.pem is usually used in for AWS services, but if to be used for PuTTY or WinSCP .ppk file can be used.
+>.ppk files are used to enable communication securely with another party having the corresponding public key.
+>Systems platform compatibility: Linux (.pem), Mac (.pem), Windows PowerShell (.pem), Window PuTTY/Cygwin (.ppk)
